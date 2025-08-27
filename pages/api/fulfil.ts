@@ -1,3 +1,4 @@
+export const config = { runtime: 'nodejs' };
 import type { NextApiRequest, NextApiResponse } from "next";
 import Stripe from "stripe";
 import { getSupabase } from "@/lib/supabase";
