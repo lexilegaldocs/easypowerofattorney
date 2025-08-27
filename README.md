@@ -101,3 +101,4 @@ Copyright © 2025 Easy Power of Attorney.
 - Download the latest **LP1F** and **LP1H** forms from GOV.UK and place them here: `public/templates/LP1F.pdf` and `public/templates/LP1H.pdf`.
 - The code will try to fill those templates directly. If not present, it falls back to the summary pack.
 - Adjust coordinates in `lib/coords.ts` after a quick visual test (values provided are starter positions and may need nudging).
+- 
