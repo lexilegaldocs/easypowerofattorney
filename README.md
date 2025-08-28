@@ -102,3 +102,4 @@ Copyright © 2025 Easy Power of Attorney.
 - The code will try to fill those templates directly. If not present, it falls back to the summary pack.
 - Adjust coordinates in `lib/coords.ts` after a quick visual test (values provided are starter positions and may need nudging).
 - 
+
