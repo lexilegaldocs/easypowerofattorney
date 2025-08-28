@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 
-// Tell Next.js not to prerender this page
+// ensure this page is not pre-rendered
 export const dynamic = 'force-dynamic';
 
 export default function Success() {
@@ -10,7 +10,6 @@ export default function Success() {
   const [downloadUrl, setDownloadUrl] = useState<string | null>(null);
 
   useEffect(() => {
-    // Avoid Next.js SSR issues by accessing window only on client
     const params = new URLSearchParams(window.location.search);
     const sid = params.get('sid');
     const session_id = params.get('session_id');
